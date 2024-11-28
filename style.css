@@ -44,6 +44,55 @@
 .second {
   display: none;
 }
+.header-background {
+  background-image: url(./cover.webp);
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  height: 840px;
+  margin: auto;
+  height: 700px;
+  border-radius: 25px;
+  padding-top: 180px;
+}
+.easy-service {
+  width: 90%;
+  height: 380px;
+  background-color: white;
+  /* filter: blur(1.1px);
+  -webkit-filter: blur(1.1px); */
+  position: relative;
+  border-radius: 25px;
+  position: relative;
+  margin: auto;
+}
+.blur {
+  padding: 10px;
+  background-color: gray;
+}
+.white-background {
+  width: 350px;
+  height: 50px;
+  background-color: #e9e2e2;
+  justify-content: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* filter: blur(0spx); */
+}
+.first-div {
+  width: 330px;
+  height: 35px;
+  border-radius: 12px;
+  background-color: #292929;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e9e2e2;
+}
 @media screen and (min-width: 1024px) {
   .first {
     display: flex;
